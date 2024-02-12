@@ -4,15 +4,15 @@ Assignment 2
 
 __Assignment__ **2**
 
-###Assignment 2
+### Assignment 2
 
-#####Assignment 2
+##### Assignment 2
 
--Assignment2
+- Assignment2
 
--**Assignment2**
+- **Assignment2**
 
--#Assignment
+- #Assignment
 
 1. A
 2. B

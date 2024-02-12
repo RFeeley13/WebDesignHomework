@@ -25,6 +25,4 @@ __Assignment__ **2**
 
 This is [my profile](https://github.com/RFeeley13)
 
-![GitHub logo with relative URL](./img/github-icon.png)
-
 ![monkeypicture](https://i.natgeofe.com/n/82fddbcc-4cbb-4373-bf72-dbc30068be60/drill-monkey-01_2x3.jpg)

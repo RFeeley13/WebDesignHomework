@@ -10,4 +10,4 @@
         
 5. The Index is a master HTML file, acting as the homepage of a site. An index is found on the homepage of a website.
         
-6. 6. When naming files, do not use spaces or funky characters, and do not use numeric characters at the beginning of the name. You also need to include an extension with each file. 
+6. When naming files, do not use spaces or funky characters, and do not use numeric characters at the beginning of the name. You also need to include an extension with each file. 

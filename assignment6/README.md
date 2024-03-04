@@ -1,5 +1,4 @@
-The code for this week's assignment is as follows:
-"<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     
@@ -21,7 +20,7 @@ The code for this week's assignment is as follows:
     <!-- Recipe goes here -->
     <h1>Recipe</h1>
 
-    <p><i>Ingredients<i>:</p>
+    <p><i>Ingredients</i>:</p>
 
     <ul>
         <li>1 cup (227g) butter, to be browned</li>
@@ -55,4 +54,3 @@ The code for this week's assignment is as follows:
 
   </body>
 </html>
-"

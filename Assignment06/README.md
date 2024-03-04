@@ -45,12 +45,10 @@
         <li>Using a spatula, fold in flour and salt until just incorporated. Fold in additional chocolate if using. Batter will be very thick.</li>
         <li>Scoop and spread batter evenly into prepared pan.</li>
         <li>Bake 25 minutes until surface is glossy and just set (not jiggly in center). Do not overbake. They will finish cooking as they cool.</li>
-    </ol
+    </ol>
 
     
 
-<p>Recipie taken <a href="https://www.reddit.com/r/Baking/comments/1714o53/yesterday_i_asked_for_gooey_brownie_recipes_today/">from this page</a>.</p>
-
-
+    <p>Recipie taken <a href="https://www.reddit.com/r/Baking/comments/1714o53/yesterday_i_asked_for_gooey_brownie_recipes_today/">from this page</a>.</p>
   </body>
 </html>

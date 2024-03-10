@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Muse Comics</title>
+    <!-- characterset used-->
+    <meta charset="UTF-8">
+    <!-- page description-->
+    <meta name="description" content="this is an assignment page for Muse Comics">
+    <!-- author-->
+    <meta name="author" content="Riley Feeley">
+    <!-- meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- style elements for body and table-->
+    <style>
+        body {
+            background-color: white;
+            font-family: fantasy;
+            font-size: 14px;
+        }
+
+        table {
+            border: 1px solid black; 
+        }
+    </style>
+</head>
+
+<body>
+    <img src="images/musecomicslogo.png" width="500" height="100" alt="Muse Comics Logo" title="Muse Comics Logo">
+    <h1> Contact</h1>
+    <a href="mailto:events@musecomics.com">send an email</a>
+    <address>
+        Muse Comics & Games <br />
+        1940 Harve Ave <br />
+        Missoula, MT 59801 <br />
+        <a href="tel:406 - 543-9944" target="_blank" rel="noopener">406 - 543-9944</a> <br />
+    </address>
+
+    <p>
+        <table>
+            <tr>
+                <th>Days</th>
+                <th>Hours</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>10:00am - 7:00pm</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>10:00am - 7:00pm</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>10:00am - 7:00pm</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>10:00am - 7:00pm</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>10:00am - 8:00pm</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>10:00am - 8:00pm</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>11:00am - 7:00pm</td>
+            </tr>     
+        </table>
+    </p>
+    <form method="post" action="index.html">
+        Name:<br />
+        <input type="text" id="name" placeholder="enter your name" autofocus>
+        <h2>Interested in:</h2>
+        <input type="checkbox" name="intersted-in" type="interested-in" value="comics">comics<br />
+        <input type="checkbox" name="intersted-in" type="interested-in" value="table-top">table-top<br />
+        <input type="checkbox" name="intersted-in" type="interested-in" value="events">events<br />
+        <input type="checkbox" name="intersted-in" type="interested-in" value="other">other<br />
+        <pr></pr>
+        comments<br />
+        <textarea name="comments" id="comments" rows="10" col="30">additional inquries?:</textarea>
+        <p></p>
+        Please subscribe to our newsletter
+        Yes&nbsp;<input type="radio" name="newsletter" type="newsletter" value="yes">
+        No&nbsp;<input type="radio" name="newsletter" type="newsletter" value="no">
+        </br>
+        <input type="submit" name="subscribe" value="Subscribe" />
+    </form> 
+</body>
+</html>

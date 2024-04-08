@@ -11,7 +11,7 @@ body{
 
     border-color: rgb(145, 24, 226);
 
-    padding: 10px;
+    padding: 30px;
 
     background : rgba(56, 53, 53, 0.411);
 
@@ -32,7 +32,7 @@ div.align{
 
     margin: auto;
 
-    border-bottom: 1px black solid;
+    border-bottom: 1px rgb(56, 53, 53, 0.411);
 
     border-left: 2px red;
 
@@ -51,7 +51,7 @@ div.align{
 
     top:5px;
 
-    color: rgb(56, 53, 53, 0.411);
+    color: rgba(10, 8, 8, 0.411);
 
     opacity: .75;
 

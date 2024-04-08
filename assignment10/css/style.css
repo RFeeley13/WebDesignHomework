@@ -1,18 +1,22 @@
 body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
 }
 
 .main-container {
     
    
     border-style: solid;
+
     border-width: 10px;
+
     border-color: rgb(145, 24, 226);
-    
+
     padding: 10px;
-   
+
     background : rgba(56, 53, 53, 0.411);
-    width: 75%;
+
+    width: 85%;
+
     margin: auto;
 }
 
@@ -35,7 +39,7 @@ div.align{
     position: relative;
     left: 20px;
     top:5px;
-    color: rgb(64, 196, 24);
+    color: rgb(5, 17, 1);
     opacity: .75;
     font-size: 60px;
 }

@@ -1,60 +1,49 @@
 <!DOCTYPE html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Birds</title>
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" text="text/css" href="./css/bootstrap.css">
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Riley Feeley">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
 
-  <style>
-    /* Custom CSS */
-    canvas {
-      border: 1px solid black;
-    }
-  </style>
+    <link rel="stylesheet" text="text/css" href="./css/bootstrap.css">
 </head>
 <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Birds</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="birds.html">About</a>
-      </li>
-    </ul>
-  </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+    
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="pages/birds.html">More Bird</a>
+          <a class="nav-link" href="pages/contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
 </nav>
 
-<!-- Home Page Content -->
-<div class="container mt-4">
+<div class="row">
+    
+    <div class="col-4">
+
+    <canvas id="myCanvas" height="600" width="500"></canvas>
+    <script src="js/main.js"></script>
+    
+    </div>
+
+    <div class="container mt-4">
     <h1>Bird Website</h1>
     <p>This is the home page of this bird website.</p>
     <p>Here's a beautiful image of a Baltimore Oriole:</p>
     <img src="baltimoreoriole.jpg" alt="Baltimore Oriole" class="bird-image">
     <p>There is a song that starts out with the lyric "baltimore oriole" but I cannot remember what it is called. Google has also not been useful.</p>
-    <canvas id="myCanvas" width="400" height="200"></canvas>
-  </div>
-
-<!-- JavaScript -->
-<script>
-  // JavaScript for drawing on canvas
-  document.addEventListener("DOMContentLoaded", function() {
-    var canvas = document.getElementById("myCanvas");
-    var ctx = canvas.getContext("2d");
-    ctx.fillStyle = "#FF0000";
-    ctx.fillRect(0, 0, 150, 75);
-  });
-</script>
-
+    </div>
+</div>
 
 </body>
 </html>

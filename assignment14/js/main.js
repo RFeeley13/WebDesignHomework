@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function drawCircle(x, y) {
       ctx.beginPath();
       ctx.arc(x, y, 20, 0, 2 * Math.PI);
-      ctx.fillStyle = "#FFA500"; // Orange color
+      ctx.fillStyle = "#FFA500"; 
       ctx.fill();
       ctx.closePath();
     }

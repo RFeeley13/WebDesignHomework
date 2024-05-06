@@ -1,0 +1,185 @@
+
+/* Typography */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #007bff; /* Bootstrap primary color */
+  }
+  
+  .navbar-brand {
+    color: white;
+  }
+  
+  .navbar-nav .nav-link {
+    color: white;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #f8f9fa; /* Bootstrap light color */
+  }
+  
+  /* Containers */
+  .container {
+    margin-top: 20px;
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    border-color: #007bff; /* Bootstrap primary color */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darken primary color */
+    border-color: #0056b3; /* Darken primary color */
+  }
+  
+  /* Images */
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Cards */
+  .card {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    margin-bottom: 20px;
+  }
+  
+  .card-header {
+    background-color: #f8f9fa; /* Bootstrap light color */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  }
+  
+  .card-body {
+    padding: 1.25rem;
+  }
+  
+  .card-footer {
+    background-color: #f8f9fa; /* Bootstrap light color */
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+  }
+  
+  /* Forms */
+  .form-control {
+    border: 1px solid #ced4da; /* Bootstrap form border color */
+  }
+  
+  .form-control:focus {
+    border-color: #80bdff; /* Bootstrap primary color */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Bootstrap primary color */
+  }
+  
+  /* Alerts */
+  .alert {
+    border-radius: 0.25rem;
+  }
+  
+  .alert-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border-color: #007bff; /* Bootstrap primary color */
+  }
+  
+  .alert-primary hr {
+    border-top-color: #0062cc; /* Darken primary color */
+  }
+  
+  .alert-primary .alert-link {
+    color: #002752; /* Darken primary color */
+  }
+  
+  .alert-primary.alert-dismissible .close {
+    color: #002752; /* Darken primary color */
+  }
+  
+  /* Tables */
+  .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+  }
+  
+  .table tbody + tbody {
+    border-top: 2px solid #dee2e6;
+  }
+  
+  .table .table {
+    background-color: #fff;
+  }
+  
+  .table-sm th,
+  .table-sm td {
+    padding: 0.3rem;
+  }
+  
+  .table-bordered {
+    border: 1px solid #dee2e6;
+  }
+  
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #dee2e6;
+  }
+  
+  .table-bordered thead th,
+  .table-bordered thead td {
+    border-bottom-width: 2px;
+  }
+  
+  .table-borderless th,
+  .table-borderless td,
+  .table-borderless thead th,
+  .table-borderless tbody + tbody {
+    border: 0;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+  }
+  
+  /* Pagination */
+  .pagination {
+    justify-content: center;
+  }
+  
+  /* Responsive Utilities */
+  @media (max-width: 576px) {
+    .text-sm-left {
+      text-align: left !important;
+    }
+    
+    .text-sm-right {
+      text-align: right !important;
+    }
+    
+    .text-sm-center {
+      text-align: center !important;
+    }
+  }
+  

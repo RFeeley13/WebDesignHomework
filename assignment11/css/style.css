@@ -1,0 +1,38 @@
+div{
+    text-align: left;
+    font-family: RobotoMono;
+    font-style: normal;
+    margin: 10px;
+}
+
+.title{
+    font-family: PixelifySans;
+    font-size: 80px;
+    text-shadow: -6px 2px 0 #000;
+    color:rgb(16, 170, 80);
+    background-color:#ccdac9;
+    height: 100px;
+    text-align: center;
+}
+
+#neuromirror{
+    font-family: RobotoMono;
+    font-weight: 900;
+}
+
+
+#character:hover:after {
+
+    content: " I have used my second chatGPT inquiry to ask 'can you make 1 more paragraph about tortoises that has more character?' to which it replied 'Tortoises, with their stoic demeanor and unhurried pace, embody a timeless elegance that belies their ancient lineage. Their rugged shells, weathered by the passage of time, tell tales of journeys across vast landscapes and encounters with the elements. With each deliberate step, they carry the weight of history on their backs, a reminder of the interconnectedness of all living beings and the enduring legacy of evolution. In a world that often rushes past, the tortoise stands as a steadfast guardian of tranquility, inviting us to slow down, appreciate the beauty of the present moment, and tread gently on the Earth's delicate surface.'";
+    font-weight: 400;
+    color: rgb(38, 99, 41);
+    font-style: italic;
+}
+
+#uppercase {
+    text-transform: uppercase;
+}
+
+img{
+    padding: 20px 20px;
+}

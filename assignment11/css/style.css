@@ -6,7 +6,7 @@ div{
 }
 
 .title{
-    font-family: PixelifySans;
+    font-family: Playfultime;
     font-size: 80px;
     text-shadow: -6px 2px 0 #000;
     color:rgb(16, 170, 80);
@@ -15,7 +15,7 @@ div{
     text-align: center;
 }
 
-#neuromirror{
+#character{
     font-family: RobotoMono;
     font-weight: 900;
 }

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Black.ttf) format(truetype);
+    font-style: black; 
+}
+
+@font-face{
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Medium.ttf) format(truetype);
+    font-style: medium;
+}
+
+@font-face{
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf) format(truetype);
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'SuperComic';
+    src: url(../fonts/SuperComic-qZg62.ttf) format(truetype);
+    font-style: normal;
+}

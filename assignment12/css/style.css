@@ -1,0 +1,116 @@
+body{
+    font-family: 'SuperComic';
+    font-style: normal;
+}
+
+header{
+    position: fixed;
+    background-color: black;
+    font-family: 'SuperComic';
+    font-style: medium;
+    color: rgb(228, 216, 216);
+    font-variant: small-caps;
+    text-align: left;
+    margin: 0;
+    height: 2.5em;
+    width: 100%;
+}
+
+.menu-item{
+    display: inline-block;
+    margin: 0 0;
+    min-width: 8em;
+    text-align: center;
+    background-color: #26272b;
+    padding: 0.5em 0;
+}
+
+.menu-item a {
+    color: #fff;
+    text-decoration: none;
+}
+.menu-item:hover {
+    background-color: #2bc96c;
+}
+
+.dropdown {
+    display: inline-block;
+    margin: 0 0;
+    min-width: 8em;
+    text-align: center;
+    background-color: rgba(71, 50, 73, 0.507);
+    padding: 0.5em 0;
+}
+.dropdown a {
+    color: white;
+    text-decoration: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border: 1px solid #000;
+    margin: 0;
+    margin-top: 0.5em;
+    color: #000;
+    background-color: #fff;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: #000;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em;
+    min-width: 7em;
+}
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: #baf0ef;
+    background-color: #a2a2a2;
+}
+
+.mainimage {
+    float: left;
+}
+
+.directionImage {
+    float: right;
+    width: 400px;
+    height: 200px;
+    margin: 0 0 0 80px;
+}
+
+.codyrhodes {
+    height: 200px;
+    width: 65%;
+    background-color:#5c59e0;
+    border-radius: 3em;
+    margin: 4em;
+    padding: .5em;
+    overflow: scroll;
+}
+
+.romanreigns {
+    height: 200px;
+    width: 65%;
+    background-color:#33bd3e;
+    border-radius: 3em;
+    margin: 4em;
+    padding: .5em;
+    overflow: scroll;
+}
+
+.brocklesnar {
+    height: 200px;
+    width: 65%;
+    background-color:#a2a2a2;
+    border-radius: 3em;
+    margin: 4em;
+    padding: .5em;
+    overflow: scroll;
+}
